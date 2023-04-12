@@ -5,6 +5,7 @@ import { WagmiConfig } from 'wagmi';
 import ContextProvider from './context/provider';
 import { developmentWagmiClient, productionWagmiClient } from '../../lib/wagmi-clients';
 import CreateEscrowModal from './create-escrow-modal';
+import Web3Modal from './web3modal';
 
 const CustomWagmiConfig = ({ children }: { children: ReactNode }) =>
   process.env.NODE_ENV !== 'production' ? (
@@ -18,6 +19,7 @@ const Providers = ({ children }: { children: ReactNode }) => (
     <ContextProvider>
       {children}
       <CreateEscrowModal />
+      <Web3Modal />
     </ContextProvider>
   </CustomWagmiConfig>
 );

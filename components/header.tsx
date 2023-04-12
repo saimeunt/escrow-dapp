@@ -33,15 +33,15 @@ const Header = () => {
                 <div className="flex flex-shrink-0 items-center">
                   <Image
                     className="block h-8 w-auto lg:hidden"
-                    src="/img/favicon.svg"
-                    alt="Escrow logo"
+                    src="/icon.svg"
+                    alt="Escrow dApp logo"
                     width={128}
                     height={128}
                   />
                   <Image
                     className="hidden h-8 w-auto lg:block"
-                    src="/img/favicon.svg"
-                    alt="Escrow logo"
+                    src="/icon.svg"
+                    alt="Escrow dApp logo"
                     width={128}
                     height={128}
                   />

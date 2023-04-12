@@ -1,7 +1,7 @@
 {
-  "name": "escrow-dapp",
+  "name": "escrow-dapp-sepolia",
   "version": "1.0.0",
-  "description": "escrow dApp",
+  "description": "Escrow dApp",
   "author": "saimeunt",
   "license": "ISC",
   "scripts": {
@@ -13,10 +13,8 @@
     "build": "next build",
     "hardhat:node": "hardhat node",
     "hardhat:compile": "hardhat compile",
-    "prehardhat:deploy-localhost": "yarn hardhat:compile",
     "hardhat:deploy-localhost": "hardhat run scripts/deploy.ts --network localhost",
-    "prehardhat:deploy-goerli": "yarn hardhat:compile",
-    "hardhat:deploy-goerli": "hardhat run scripts/deploy.ts --network goerli",
+    "hardhat:deploy-sepolia": "hardhat run scripts/deploy.ts --network sepolia",
     "hardhat:test": "hardhat test test/test.ts",
     "hardhat:coverage": "hardhat coverage"
   },
@@ -44,11 +42,11 @@
     "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
     "lodash": "^4.17.21",
-    "next": "^13.2.4",
+    "next": "^13.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "usehooks-ts": "^2.9.1",
-    "wagmi": "^0.12.9"
+    "wagmi": "^0.12.10"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
@@ -56,7 +54,7 @@
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
-    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
     "@nomiclabs/hardhat-waffle": "^2.0.5",
     "@tailwindcss/aspect-ratio": "^0.4.2",
@@ -67,15 +65,15 @@
     "@types/lodash": "^4.14.192",
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.15.10",
-    "@types/react": "^18.0.33",
-    "@typescript-eslint/eslint-plugin": "^5.57.1",
-    "@typescript-eslint/parser": "^5.57.1",
+    "@types/react": "^18.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
     "autoprefixer": "^10.4.14",
     "chai": "^4.2.0",
-    "eslint": "^8.36.0",
-    "eslint-config-next": "^13.2.4",
+    "eslint": "^8.38.0",
+    "eslint-config-next": "^13.3.0",
     "eslint-config-prettier": "^8.8.0",
-    "hardhat": "^2.13.0",
+    "hardhat": "^2.13.1",
     "hardhat-gas-reporter": "^1.0.8",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
@@ -85,6 +83,6 @@
     "tailwindcss": "^3.3.1",
     "ts-node": "^10.9.1",
     "typechain": "^8.1.0",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.4"
   }
 }

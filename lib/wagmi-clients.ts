@@ -1,16 +1,16 @@
 import { createClient, configureChains } from 'wagmi';
-import { hardhat, goerli } from 'wagmi/chains';
+import { hardhat, sepolia } from 'wagmi/chains';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { w3mConnectors } from '@web3modal/ethereum';
 
 import { developmentProvider } from './ethers-providers';
 
 export const developmentChains = [hardhat];
-export const productionChains = [goerli];
+export const productionChains = [sepolia];
 
 const connectors = w3mConnectors({
   projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID,
-  version: 1,
+  version: 2,
   chains: process.env.NODE_ENV !== 'production' ? developmentChains : productionChains,
 });
 
