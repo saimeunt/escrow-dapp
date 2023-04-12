@@ -1,6 +1,6 @@
 import { createClient, configureChains } from 'wagmi';
 import { hardhat, sepolia } from 'wagmi/chains';
-import { alchemyProvider } from 'wagmi/providers/alchemy';
+import { jsonRpcProvider } from 'wagmi/providers/jsonRpc';
 import { w3mConnectors } from '@web3modal/ethereum';
 
 import { developmentProvider } from './ethers-providers';
@@ -23,7 +23,7 @@ export const developmentWagmiClient = () =>
 
 export const productionWagmiClient = () => {
   const { provider } = configureChains(productionChains, [
-    alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_API_KEY }),
+    jsonRpcProvider({ rpc: () => ({ http: process.env.NEXT_PUBLIC_ALCHEMY_SEPOLIA_URL }) }),
   ]);
   return createClient({
     autoConnect: true,

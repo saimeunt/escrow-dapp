@@ -6,12 +6,10 @@ export const developmentProvider = new providers.JsonRpcProvider(hardhat.rpcUrls
   chainId: hardhat.id,
 });
 
-export const productionProvider = new providers.JsonRpcProvider(process.env.ALCHEMY_SEPOLIA_URL, {
-  name: sepolia.name,
-  chainId: sepolia.id,
-});
-
-/* export const productionProvider = new providers.AlchemyProvider(
-  sepolia.network,
-  process.env.NEXT_PUBLIC_ALCHEMY_API_KEY,
-); */
+export const productionProvider = new providers.JsonRpcProvider(
+  process.env.NEXT_PUBLIC_ALCHEMY_SEPOLIA_URL,
+  {
+    name: sepolia.name,
+    chainId: sepolia.id,
+  },
+);
