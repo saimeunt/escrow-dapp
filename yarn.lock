@@ -2131,43 +2131,43 @@
     "@walletconnect/window-getters" "^1.0.1"
     tslib "1.14.1"
 
-"@web3modal/core@2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@web3modal/core/-/core-2.2.2.tgz#1e282dc45bddb11c04f1c93abce570bac1b9a620"
-  integrity sha512-RKbYNIEVP5Hwiva68PWXExbkTFLUTasneyRpcjoQSM4BIh78qXp1YMt0nyTvFdHmHQEGxXEMCuRG5qoE97uMHA==
+"@web3modal/core@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@web3modal/core/-/core-2.3.0.tgz#49be7831e2afc4fa4c0ba1b310e8e3fe3cd7d26c"
+  integrity sha512-g05JecspH50IdN4mMjCCg24uDKWFyvfqU1mTludfBO+hRpmsfmIdxojPNNmYR/oTxmhiko8nyt1hFoE1vg5A8A==
   dependencies:
     buffer "6.0.3"
-    valtio "1.10.3"
+    valtio "1.10.4"
 
-"@web3modal/ethereum@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@web3modal/ethereum/-/ethereum-2.2.2.tgz#aad8957deb4db4a3224b9e7bac538f1995bb5bcf"
-  integrity sha512-ksyGQsyK4pMU2Z83zZNo7HKPmjWkhcfK6K4ip+w3R/Rstcpqy/kHW/DUClXY76itu323EdesV6gBzASZ3CwBdQ==
+"@web3modal/ethereum@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@web3modal/ethereum/-/ethereum-2.3.0.tgz#81fa2d7c087377da0181268a9e06ff05f1efcc6b"
+  integrity sha512-ugm/uv+WMh1NKfv3dxq3rIkmWkxWR2OmsC+FIJ8bGp62H5VRXbSLiOXIqtgC+CQp/RoyX0shzS4WzApbcnvrBA==
 
-"@web3modal/react@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@web3modal/react/-/react-2.2.2.tgz#2ff0f6b03e3824b3c46e27aeb183caca84d6a7a5"
-  integrity sha512-NgMbRaF4XP6uzLsB935bQtjXgGEUoAM5ywXo6tVMdhmfQarEUyqxoG+H1HM2GLndMDSxJqMjVNoYXo3ibQUvVw==
+"@web3modal/react@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@web3modal/react/-/react-2.3.0.tgz#1552427709e596fb4ec07b81b35c7fed50d7d82d"
+  integrity sha512-lu4ojYwL7+3QtlwtQQKQL0P+V6Gszsg8GwgDQeXkofubjOe5mBiUZSHZcWc8k9VXeIrcT75TSjfdWcmucHcIbg==
   dependencies:
-    "@web3modal/core" "2.2.2"
-    "@web3modal/standalone" "2.2.2"
-    "@web3modal/ui" "2.2.2"
+    "@web3modal/core" "2.3.0"
+    "@web3modal/standalone" "2.3.0"
+    "@web3modal/ui" "2.3.0"
 
-"@web3modal/standalone@2.2.2", "@web3modal/standalone@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@web3modal/standalone/-/standalone-2.2.2.tgz#2d5ce74bbb7f112b31da32049620afa75c4a4686"
-  integrity sha512-c05kkTFNGZqnjJ3n2C8uo+wWL6ut1jexGYAyTvbweDengdsOr8LDo0VpK5V3XSKCV2fFcPh5JE9H1aA4jpnZPg==
+"@web3modal/standalone@2.3.0", "@web3modal/standalone@^2.2.2":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@web3modal/standalone/-/standalone-2.3.0.tgz#4709a611adc893e07a46b6763861f394f8cf06ad"
+  integrity sha512-O2vfsT83r2UlEYCFEKcIRQLt7XmsAUapazb1rjYr6PWN1hU4FVksWiUwG9UGNoU8lznvaiFiCUNmjje1+4NHgQ==
   dependencies:
-    "@web3modal/core" "2.2.2"
-    "@web3modal/ui" "2.2.2"
+    "@web3modal/core" "2.3.0"
+    "@web3modal/ui" "2.3.0"
 
-"@web3modal/ui@2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@web3modal/ui/-/ui-2.2.2.tgz#f1c1ac908230d4214c35891a5d922c118353eaf2"
-  integrity sha512-PAuMOuk4sZ4UGjucGMZKzu6Qu56XtFsgLaqOn8ZgP2RkZmYEBGSG9mUQVzJd3XzfzAy1T91Wmqp/3TI3m0pXuQ==
+"@web3modal/ui@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@web3modal/ui/-/ui-2.3.0.tgz#3478847f896e70814fbe05d03bf01c3286a52f92"
+  integrity sha512-iXpT4UPwQCxU/+JcqxjNcyBMM5imepmtO47ogbPQkvpZXrjsyiAqxLAXFAbY/W6uoNvGez1sQDtTdzt0umlKyQ==
   dependencies:
-    "@web3modal/core" "2.2.2"
-    lit "2.6.1"
+    "@web3modal/core" "2.3.0"
+    lit "2.7.2"
     motion "10.15.5"
     qrcode "1.5.1"
 
@@ -2648,16 +2648,9 @@ bigint-buffer@^1.1.5:
     bindings "^1.3.0"
 
 bigint-crypto-utils@^3.0.23:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/bigint-crypto-utils/-/bigint-crypto-utils-3.2.1.tgz#fda6eba79b5a6843194e8ae562584237607f5b7f"
-  integrity sha512-/sERxP9gzXUJ7wfrFf4/oCnLc/Y87tkhi58o0zifx4VdQdLVW6OkV3X2+BxVJn1FTLpT1laG2YIbwP6ZLNut+A==
-  dependencies:
-    bigint-mod-arith "^3.2.0"
-
-bigint-mod-arith@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/bigint-mod-arith/-/bigint-mod-arith-3.2.0.tgz#0b76c390b3f2bb14866aad702e18b0c8639df037"
-  integrity sha512-Khb+sLGLqbe/2NOLVMOpCSgsC3lz8r3VIRZGc41hccudLPnvks7RYZNOnGukQZV8scn5+bA6MABga3Ueq6z3+w==
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/bigint-crypto-utils/-/bigint-crypto-utils-3.2.2.tgz#e30a49ec38357c6981cd3da5aaa6480b1f752ee4"
+  integrity sha512-U1RbE3aX9ayCUVcIPHuPDPKcK3SFOXf93J1UK/iHlJuQB7bhagPIX06/CLpLEsDThJ7KA4Dhrnzynl+d2weTiw==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -3139,9 +3132,9 @@ copy-to-clipboard@^3.3.3:
     toggle-selection "^1.0.6"
 
 core-js-compat@^3.25.1:
-  version "3.30.0"
-  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.30.0.tgz#99aa2789f6ed2debfa1df3232784126ee97f4d80"
-  integrity sha512-P5A2h/9mRYZFIAP+5Ab8ns6083IyVpSclU74UNvbGVQ8VM7n3n3/g2yF3AkKQ9NXz2O+ioxLbEWKnDtgsFamhg==
+  version "3.30.1"
+  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.30.1.tgz#961541e22db9c27fc48bfc13a3cafa8734171dfe"
+  integrity sha512-d690npR7MC6P0gq4npTl5n2VQeNAmUrJ90n+MHiKS7W2+xno4o3F5GDEuylSdi6EJ3VssibSGXOa1r3YXD3Mhw==
   dependencies:
     browserslist "^4.21.5"
 
@@ -3442,9 +3435,9 @@ eip1193-provider@1.0.1:
     "@json-rpc-tools/provider" "^1.5.5"
 
 electron-to-chromium@^1.4.284:
-  version "1.4.359"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.359.tgz#5c4d13cb08032469fcd6bd36457915caa211356b"
-  integrity sha512-OoVcngKCIuNXtZnsYoqlCvr0Cf3NIPzDIgwUfI9bdTFjXCrr79lI0kwQstLPZ7WhCezLlGksZk/BFAzoXC7GDw==
+  version "1.4.361"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.361.tgz#010ddd5e623470ab9d1bf776b009d11c3669a4e3"
+  integrity sha512-VocVwjPp05HUXzf3xmL0boRn5b0iyqC7amtDww84Jb1QJNPBc7F69gJyEeXRoriLBC4a5pSyckdllrXAg4mmRA==
 
 elliptic@6.5.4, elliptic@^6.5.2, elliptic@^6.5.4:
   version "6.5.4"
@@ -3758,9 +3751,9 @@ eslint-scope@^5.1.1:
     estraverse "^4.1.1"
 
 eslint-scope@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-7.1.1.tgz#fff34894c2f65e5226d3041ac480b4513a163642"
-  integrity sha512-QKQM/UXpIiHcLqJ5AOyIW7XZmzjkzQXYE54n1++wb0u9V/abW3l9uQnxX8Z5Xd18xyKIMTUAyQ0k1e8pz6LUrw==
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-7.2.0.tgz#f21ebdafda02352f103634b96dd47d9f81ca117b"
+  integrity sha512-DYj5deGlHBfMt15J7rdtyKNq/Nqlv5KfU4iodrQ019XESsRnwXH9KAE0y3cwtUHDo2ob7CypAnCqefh6vioWRw==
   dependencies:
     esrecurse "^4.3.0"
     estraverse "^5.2.0"
@@ -5434,7 +5427,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lit-element@^3.2.0:
+lit-element@^3.3.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-3.3.1.tgz#9dcb950b1fadf156dacf3ded8d7d51a8cf16a966"
   integrity sha512-Gl+2409uXWbf7n6cCl7Kzasm7zjT9xmdwi2BhLNi70sRKAgRkqueDu5mSIH3hPYMM0/vqBCdPXod3NbGkRA2ww==
@@ -5443,21 +5436,21 @@ lit-element@^3.2.0:
     "@lit/reactive-element" "^1.3.0"
     lit-html "^2.7.0"
 
-lit-html@^2.6.0, lit-html@^2.7.0:
+lit-html@^2.7.0:
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-2.7.2.tgz#e4593da022298d8029ae3f67d10d322c18152d3d"
   integrity sha512-ZJCfKlA2XELu5tn7XuzOziGFGvf1SeQm+ngLWoJ8bXtSkRrrR3ms6SWy+gsdxeYwySLij5xAhdd2C3EX0ftxdQ==
   dependencies:
     "@types/trusted-types" "^2.0.2"
 
-lit@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/lit/-/lit-2.6.1.tgz#5951a2098b9bde5b328c73b55c15fdc0eefd96d7"
-  integrity sha512-DT87LD64f8acR7uVp7kZfhLRrHkfC/N4BVzAtnw9Yg8087mbBJ//qedwdwX0kzDbxgPccWRW6mFwGbRQIxy0pw==
+lit@2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/lit/-/lit-2.7.2.tgz#8084355a3b834a8e62685f2e641242fd7c1698ce"
+  integrity sha512-9QnZmG5mIKPRja96cpndMclLSi0Qrz2BXD6EbqNqCKMMjOWVm/BwAeXufFk2jqFsNmY07HOzU8X+8aTSVt3yrA==
   dependencies:
     "@lit/reactive-element" "^1.6.0"
-    lit-element "^3.2.0"
-    lit-html "^2.6.0"
+    lit-element "^3.3.0"
+    lit-html "^2.7.0"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -7538,9 +7531,9 @@ tr46@~0.0.3:
   integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
 
 ts-command-line-args@^2.2.0:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/ts-command-line-args/-/ts-command-line-args-2.4.2.tgz#b4815b23c35f8a0159d4e69e01012d95690bc448"
-  integrity sha512-mJLQQBOdyD4XI/ZWQY44PIdYde47JhV2xl380O7twPkTQ+Y5vFDHsk8LOeXKuz7dVY5aDCfAzRarNfSqtKOkQQ==
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/ts-command-line-args/-/ts-command-line-args-2.5.0.tgz#7eeed3a6937b2612ea08a0794cf9d43fbbea89c4"
+  integrity sha512-Ff7Xt04WWCjj/cmPO9eWTJX3qpBZWuPWyQYG1vnxJao+alWWYjwJBc5aYz3h5p5dE08A6AnpkgiCtP/0KXXBYw==
   dependencies:
     "@morgan-stanley/ts-mocking-bird" "^0.6.2"
     chalk "^4.1.0"
@@ -7839,10 +7832,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-valtio@1.10.3:
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/valtio/-/valtio-1.10.3.tgz#273eda9ba6459869798b4f58c84514e18fb80ed8"
-  integrity sha512-t3Ez/+baJ+Z5tIyeaI6nCAbW/hrmcq2jditwg/X++o5IvCdiGirQKTOv1kJq0glgUo13v5oABCVGcinggBfiKw==
+valtio@1.10.4:
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/valtio/-/valtio-1.10.4.tgz#762647d102f14060111ed21e8afa28f424c2be78"
+  integrity sha512-gqGWh0DjtDMAy8Jaui8ufFoxlQB1k1NiA/QHrpKoTUk9EeY331WKeYhvtGn1u703RcefrDCez7PT+qeCu9lWEw==
   dependencies:
     proxy-compare "2.5.0"
     use-sync-external-store "1.2.0"
