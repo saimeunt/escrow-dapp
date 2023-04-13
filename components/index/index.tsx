@@ -7,10 +7,10 @@ const Index = async () => {
   const latestEscrows = await getLatestEscrows();
   const escrows = latestEscrows.filter(({ id }) => id.toString() != '0');
   return (
-    <div className="m-4">
+    <main className="m-4">
       <Heading />
       {escrows.length > 0 ? <EscrowsList escrows={escrows} /> : <EmptyState />}
-    </div>
+    </main>
   );
 };
 
